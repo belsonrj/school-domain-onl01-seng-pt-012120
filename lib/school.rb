@@ -17,3 +17,4 @@ class School
 end 
 
 
+school.sort 
