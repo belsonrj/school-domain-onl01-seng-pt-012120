@@ -6,11 +6,11 @@ class School
     @roster = {}
   end 
 
-  def add_student(student, level)
+  def add_student(student, grade)
     # this sort of means #=> a || a = b ... or #=> x || x = y
     # it's freak'n weird
-    roster[level] ||= []
-    roster[level] << student
+    roster[grade] ||= []
+    roster[grade] << student
   end 
 
   def sort 
