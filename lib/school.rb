@@ -28,4 +28,4 @@ school.roster
 school.add_student("Theo Madus", 5)
 school.add_student("Abbah Zabbah", 2)
 school.roster
-school.sort
+school.sort(grade)
