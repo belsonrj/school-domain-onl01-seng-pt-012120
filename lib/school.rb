@@ -1,5 +1,5 @@
 class School
-  attr_accessor :name, :roster, :grade
+  attr_accessor :name, :roster, :grade, :school
   
   def initialize(name)
     @name = name
@@ -18,3 +18,4 @@ class School
   end
 end 
 
+school.sort
