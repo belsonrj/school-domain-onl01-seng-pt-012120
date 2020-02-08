@@ -24,4 +24,4 @@ class School
   
 end 
 
-
+school.add_student("Blake Johnson", 7)
